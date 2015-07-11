@@ -30,9 +30,17 @@
         <processorPath useClasspath="true" />
         <module name="web" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="core" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="core" target="1.5" />
+      <module name="dasdas" target="1.5" />
       <module name="InternProjects" target="1.7" />
       <module name="web" target="1.7" />
       <module name="webapp" target="1.7" />
