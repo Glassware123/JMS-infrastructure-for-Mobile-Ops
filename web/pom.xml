@@ -5,14 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>InternProjects</groupId>
-        <artifactId>InternProjects</artifactId>
+        <groupId>com.gg</groupId>
+        <artifactId>mobileop</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>InternProjects</groupId>
+    <groupId>com.gg.mobileop</groupId>
     <artifactId>web</artifactId>
-    <packaging>war</packaging>
+
+    <!-- TODO war -->
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
     

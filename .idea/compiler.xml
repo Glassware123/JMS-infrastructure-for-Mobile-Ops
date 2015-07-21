@@ -35,17 +35,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="core" />
         <module name="test3" />
+      </profile>
+      <profile default="false" name="Annotation profile for core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="core" target="1.5" />
+      <module name="core" target="1.8" />
       <module name="dasdas" target="1.5" />
       <module name="InternProjects" target="1.7" />
       <module name="JMS-infrastructure-for-Mobile-Ops" target="1.7" />
       <module name="test3" target="1.5" />
-      <module name="web" target="1.7" />
+      <module name="web" target="1.8" />
       <module name="webapp" target="1.7" />
     </bytecodeTargetLevel>
   </component>
