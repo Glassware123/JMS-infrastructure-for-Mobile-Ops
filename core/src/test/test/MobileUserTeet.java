@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class MobileUserTeet {
 
     @Test
-    public void test() {
+    public void CallingTest() {
 
     }
 }
