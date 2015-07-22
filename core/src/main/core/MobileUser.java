@@ -1,20 +1,46 @@
 package core;
 
+import javax.persistence.*;
 
+@Entity
+@Table(name = "MobileUsers")
 public class MobileUser {
-    public int elapsedTime(){
-        Long startTime = System.currentTimeMillis();
-        Long estimatedTime = System.currentTimeMillis() - startTime;
-        return Integer.valueOf(estimatedTime.intValue());
+
+    @Id
+    @Column(name = "ID")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Integer Id;
+
+    @Column(name = "MOBILENUMBER")
+    public String mobileNumber;
+
+    @Column(name = "MINUTES")
+    public Integer currentMinutes;
+
+    @Column(name = "CREDITS")
+    public Integer curentCredits;
+
+    public String getMobileNumber() {
+        return mobileNumber;
     }
-    public int ifCallSomeBody(Integer currentCredit,Integer currentMinutes){
-        currentCredit=100;
-        currentMinutes=80;
-        if (currentMinutes>0){
-            currentMinutes=currentMinutes-elapsedTime();
-        }else if(currentCredit>0){
-            currentCredit=currentCredit-elapsedTime()*4/10;
-        }
-        return 1;
+
+    public void setMobileNumber(String mobileNumber) {
+        this.mobileNumber = mobileNumber;
+    }
+
+    public Integer getCurrentMinutes() {
+        return currentMinutes;
+    }
+
+    public void setCurrentMinutes(Integer currentMinutes) {
+        this.currentMinutes = currentMinutes;
+    }
+
+    public Integer getCurentCredits() {
+        return curentCredits;
+    }
+
+    public void setCurentCredits(Integer curentCredits) {
+        this.curentCredits = curentCredits;
     }
 }

@@ -2,6 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de4e28bd-86a6-4098-b0c7-9febc881c749" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/core/dao/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/core/dao/impl/BaseDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/core/dao/MobileUserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/core/dao/impl/MobileUserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/resources/spring/applicationContext.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/core/MobileUser.java" afterPath="$PROJECT_DIR$/core/src/main/core/MobileUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="InternProjects.iws" />
@@ -31,12 +56,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JMS-infrastructure-for-Mobile-Ops.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JMS-infrastructure-for-Mobile-Ops.iml">
+      <file leaf-file-name="MobileUser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/core/MobileUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2195122">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.05487805">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/core.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/MobileUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/impl/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobileUserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/impl/MobileUserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,11 +164,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="hibernate-configuration-4.0" />
         <option value="hibernate-main-4.0" />
         <option value="JUnit4 Test Class" />
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -78,17 +198,22 @@
         <option value="$PROJECT_DIR$/core/src/test/java/com/gg/MobileUserTest.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/gg/MobileUser.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/MobileUser.java" />
         <option value="$PROJECT_DIR$/core/src/test/test/Test.java" />
-        <option value="$PROJECT_DIR$/core/src/main/core/MobileUser.java" />
         <option value="$PROJECT_DIR$/core/src/main/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/core/src/test/test/MobileUserTeet.java" />
         <option value="$PROJECT_DIR$/core/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/core/src/main/resources/hibernate/properties/hibernate.properties" />
         <option value="$PROJECT_DIR$/core/src/main/resources/hibernate/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/core/src/main/resources/hibernate/properties/jdbc.properties" />
+        <option value="$PROJECT_DIR$/core/src/main/core/dao/impl/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/core/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/core/dao/MobileUserDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/core/dao/impl/MobileUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/main/core/MobileUser.java" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -204,14 +329,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -679,7 +796,7 @@
       <workItem from="1437479342998" duration="2661000" />
       <workItem from="1437482053576" duration="4143000" />
       <workItem from="1437544001628" duration="2756000" />
-      <workItem from="1437547237853" duration="1765000" />
+      <workItem from="1437547237853" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="Marked directories as src  and test root,activemq dependency added">
       <created>1437465761063</created>
@@ -699,11 +816,17 @@
       <option name="project" value="LOCAL" />
       <updated>1437549477757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hibernate.cfg.xml OK">
+      <created>1437549487873</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1437549487873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22808000" />
+    <option name="totallyTimeSpent" value="26341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,7 +848,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15717539" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1556568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -780,7 +903,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,7 +966,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +1026,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,7 +1054,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,29 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1031,33 +1183,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/core/MobileUser.java">
+    <entry file="file://$PROJECT_DIR$/JMS-infrastructure-for-Mobile-Ops.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52134144">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.16463415">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/MobileUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/core/dao/impl/MobileUserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/hibernate/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35365853">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.3567073">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <element signature="e#993#1018#0" expanded="true" />
-            <element signature="e#1056#1069#0" expanded="true" />
             <element signature="e#1112#1130#0" expanded="true" />
             <element signature="e#1173#1191#0" expanded="true" />
-            <element signature="n#prop#0;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JMS-infrastructure-for-Mobile-Ops.iml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2195122">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.16463415">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/core/MobileUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05487805">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
